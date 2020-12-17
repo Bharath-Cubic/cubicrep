@@ -22,6 +22,7 @@ public class Demo implements Servlet{
 
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("welocme to my rep");
 		String tname =req.getParameter("cname");
 		String tcode =req.getParameter("ccode");
 		String tlocation =req.getParameter("clocation");
