@@ -26,6 +26,7 @@ public class Demo implements Servlet{
 		String tcode =req.getParameter("ccode");
 		String tlocation =req.getParameter("clocation");
 		String tpincode =req.getParameter("cpincode");
+		System.out.println("data collected and printed");
 		
 		System.out.println(tname);
 		System.out.println(tcode);
